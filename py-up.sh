@@ -2,7 +2,7 @@
 #
 #
 # install basic ubuntu packages on install
-sudo apt-get install python-dev python-pip python-virtualenv
+sudo apt-get install -y python-dev python-pip python-virtualenv
 sudo pip install virtualenvwrapper
 
 mkdir ~/.virtualenvs
